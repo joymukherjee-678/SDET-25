@@ -40,7 +40,7 @@ public class TC_01CreateOrganisation {
 		Thread.sleep(5000);
 		WebElement orgName=driver.findElement(By.xpath("//span[@id='dtlview_Organization Name']"));
 		String orgname = orgName.getText();
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		WebElement moveElement=driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']"));
 		Actions a = new Actions(driver);
 		a.moveToElement(moveElement).perform();
